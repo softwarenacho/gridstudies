@@ -14,6 +14,16 @@
       background-color: whitesmoke;
     }
 
+    a {
+      margin: 15px 0;
+      padding: 5px 10px;
+      text-decoration: none;
+      color: #03A9F4;
+      border-bottom: 2px solid #03A9F4;
+      background-color: whitesmoke;
+      filter: drop-shadow(1px 2px 1px black);
+    }
+
     .container {
       display: grid;
       height: 75vh;
@@ -38,16 +48,20 @@
 </head>
 <body>
   <h1>Grid studies.</h1>
+  <a href="#" onclick="start();">
+    embrace change
+  </a>
   <div class="container"></div>
 </body>
 </html>
 
 <script type="text/javascript">
 
-  let div = document.getElementsByTagName('div')[0];
-  start(div)
+  start();
 
-  function start(div) {
+  function start() {
+    let div = document.getElementsByTagName('div')[0];
+    div.innerHTML = '';
     let height = random(3, 12);
     let width = random(2, 9);
     let heights = generateValues(height);

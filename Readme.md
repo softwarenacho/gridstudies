@@ -7,6 +7,7 @@
 - random rows and columns
 - random colors and borders 
 - refresh btn
+- responsive
 
 ## Upcoming:
 

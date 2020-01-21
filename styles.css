@@ -35,6 +35,7 @@ a {
 @media (max-width: 640px) {
   .container {
     height: 50vh;
+    margin-top: 25px;
   }
 }
 

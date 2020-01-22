@@ -24,7 +24,8 @@ function start() {
 }
 
 function createItem(div, padding) {
-  const Colors = ['aquamarine', 'chocolate', 'coral', 'crimson', 'gainsboro', 'gold', 'green', 'indigo', 'lavander', 'moccasin', 'orange', 'olive', 'plum', 'tan', 'teal', 'wheat', 'whitesmoke']
+  // const Colors = ['aquamarine', 'chocolate', 'coral', 'crimson', 'gainsboro', 'gold', 'green', 'indigo', 'lavander', 'moccasin', 'orange', 'olive', 'plum', 'tan', 'teal', 'wheat', 'whitesmoke']
+  const Colors = ['#CDDCD7', '#96B0AB', '#B08670', '#DCC6B7', '#EBD198', '#80706D', '#F8F3DF', '#CBB6D6', '#AFC76F', '#5C2A44', '#DEC043', '#EAE180', '#8CE7BB', '#62B892', '#71A297', '#A3CFC2', '#CAF0D1', '#D58A64', '#744841', '#BC8D81', '#FDDDC6', '#F7C7A7', '#63735F', '#E894C9']
   let pre = document.createElement('pre');
   let outside_color = Colors[Math.floor(Math.random() * Colors.length)];
   pre.style["background-color"] =  outside_color;
